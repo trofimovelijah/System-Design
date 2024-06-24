@@ -221,7 +221,7 @@
 13. А вот перед базой Cassandra данные кэшируются для повышения отзывчивости у Location service.
 
 ## Итоговый дизайн системы Второго уровня
-![изображение](https://github.com/trofimovelijah/System-Design/blob/main/SD_43_2.png)
+![изображение](https://github.com/trofimovelijah/System-Design/assets/15788014/8afec53a-02f7-4abb-83c7-ca52587f789b)
 
 # Третий уровень: Обработка больших объемов данных и компонентов ML
 ## Функциональные требования
@@ -317,7 +317,7 @@
 9. От Greenplum всё же лучше избавиться.
 
 ## Итоговый дизайн системы Третьего уровня
-![изображение](https://github.com/trofimovelijah/System-Design/blob/main/SD_43_3.png)
+![изображение](https://github.com/trofimovelijah/System-Design/assets/15788014/bc2ce9fe-2773-4eb1-8bf1-123a07e3dbaa)
 
 # Инфраструктура сбора и хранения данных, логов и телеметрии
 1. Взаимодействие системы с внешним миром настроено через межсетевой экран, ограничивающий пользовательские подключения, включая злонамеренные атаки, типа DDOS.
@@ -332,4 +332,4 @@
 10. Оркестрация сервисов и хранилищ выполняется Kubernates (на схеме размещён отдельно слева внизу).
 
 # Итоговый дизайн
-![изображение](https://github.com/trofimovelijah/System-Design/blob/main/SD_43_final.png)
+![изображение](https://github.com/trofimovelijah/System-Design/assets/15788014/f913e4ce-984c-44e0-a6c1-0229cb03f6e7)
